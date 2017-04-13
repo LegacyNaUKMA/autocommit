@@ -1,0 +1,9 @@
+[{
+	"email": "blah@baz.com",
+	"name": "John Doe",
+	"files": []
+}, {
+	"email": "foo@baz.com",
+	"name": "Vasya Pupkin",
+	"files": []
+}]

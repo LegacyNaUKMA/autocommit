@@ -1,0 +1,9 @@
+{
+  "project_path": "/Users/path",
+  "start_date": 1489430416000,
+  "end_date": 1492108816000,
+  "default_git_name": "John Doe",
+  "default_git_email": "blah@baz.com",
+  "new_repo_address": "https://github.com/johnDoe/some_git.git",
+  "even_distribution": false
+}
