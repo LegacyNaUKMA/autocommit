@@ -76,4 +76,4 @@ Then you should edit your `team.json`:
 }]
 ```
 
-Just add as much teammates as you need :)
+Just add as much teamates as you need :)
