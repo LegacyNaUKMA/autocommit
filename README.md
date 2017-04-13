@@ -1,13 +1,15 @@
 <h1>autocommit</h1>
 
 <h3>Requirements</h3>
-<code>./bash</code>
-<code>Node.js</code>
-
+<ul>
+	<li><code>./bash</code></li>
+	<li><code>Node.js</code></li>
+<ul>
 <h3>Getting Started:</h3>
-<code>npm install<code>
-<code>git clone https://github.com/LegacyNaUKMA/autocommit.git</code>
-
+<ul>
+	<li><code>npm install<code></li>
+	<li><code>git clone https://github.com/LegacyNaUKMA/autocommit.git</code></li>
+<ul>
 <h3>Project structure</h3>
 <code>
 |_assign_files.js
