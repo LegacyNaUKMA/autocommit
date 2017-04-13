@@ -13,19 +13,15 @@
 `git clone https://github.com/LegacyNaUKMA/autocommit.git`
 
 ### Project structure
-`
+
+```
 |_assign_files.js
-
 |_autocommit.js
-
 |_config.json
-
 |_team.json
-
 |_node_modules
-
 |	|_…
-`
+```
 
 ### Set up
 
@@ -50,23 +46,17 @@ Then you should edit your `team.json`:
 ```
 [{
 	"email": “blah@baz.com",
-    
 	"name": “John Doe”,
-    
 	"files": []
 }, {
 	"email": “foo@baz.com",
-    
 	"name": “Vasya Pupkin”,
-    
 	"files": []
 }, 
 ….
 {
 	"email": “bar@baz.com",
-    
 	"name": “Last Teammate”,
-    
 	"files": []
 }]
 ```
