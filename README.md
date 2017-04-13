@@ -1,29 +1,38 @@
-<h1>autocommit</h1>
+# autocommit
 
-<h3>Requirements</h3>
-<ul>
-	<li><code>./bash</code></li>
-	<li><code>Node.js</code></li>
-<ul>
-<h3>Getting Started:</h3>
-<ul>
-	<li><code>npm install<code></li>
-	<li><code>git clone https://github.com/LegacyNaUKMA/autocommit.git</code></li>
-<ul>
-<h3>Project structure</h3>
-<code>
+### Requirements
+
+`bash`
+
+`Node.js`
+
+### Getting Started:
+
+`npm install`
+
+`git clone https://github.com/LegacyNaUKMA/autocommit.git`
+
+### Project structure
+`
 |_assign_files.js
+
 |_autocommit.js
+
 |_config.json
+
 |_team.json
+
 |_node_modules
+
 |	|_…
 `
-</code>
-<h3>Set up</h3>
+
+### Set up
 
 First you should edit your `config.json`:
-<code>
+
+
+```
 {
   "project_path": "", <-- here goes path of the project you want to be committed
   "start_date": 0, <-- start date of your commits
@@ -33,36 +42,48 @@ First you should edit your `config.json`:
   "new_repo_address": “”, <-- repo you want to commit to  
   "even_distribution": false <-- even or uneven number of commits by each ‘team’ contributor
 }
-</code>
+```
 
-Then you should edit your ‘team.json’:
-<code>
+
+Then you should edit your `team.json`:
+
+```
 [{
 	"email": “blah@baz.com",
+    
 	"name": “John Doe”,
+    
 	"files": []
 }, {
 	"email": “foo@baz.com",
+    
 	"name": “Vasya Pupkin”,
+    
 	"files": []
 }, 
 ….
 {
 	"email": “bar@baz.com",
+    
 	"name": “Last Teammate”,
+    
 	"files": []
 }]
-</code>
+```
+
 Just add as much teammates as you need :)
 
-<h3>Run&commiting</h3>
+
+### Run&commiting
 
 Just run:
 
+
 `sudo node autocommit.js`
+
 
 and relax… this script will do everything for you.
 
-<h5>Don’t forget to change your default date time settings!</h5>
+#### Don’t forget to change your default date time settings!
 
-<h5>Runs only with `sudo`</h5>
+#### Runs only with `sudo`
