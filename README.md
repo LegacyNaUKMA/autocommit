@@ -1,15 +1,15 @@
-#autocommit
+<h1>autocommit</h1>
 
-##Requirements
-./bash
-Node.js 
+<h3>Requirements</h3>
+<code>./bash</code>
+<code>Node.js</code>
 
-##Getting Started:
-`npm install`
-`git clone https://github.com/LegacyNaUKMA/autocommit.git`
+<h3>Getting Started:</h3>
+<code>npm install<code>
+<code>git clone https://github.com/LegacyNaUKMA/autocommit.git</code>
 
-##Project structure
-`
+<h3>Project structure</h3>
+<code>
 |_assign_files.js
 |_autocommit.js
 |_config.json
@@ -17,23 +17,24 @@ Node.js
 |_node_modules
 |	|_…
 `
-`
-##Set up
+</code>
+<h3>Set up</h3>
 
 First you should edit your `config.json`:
-
-`{
-  "project_path": "", <= here goes path of the project you want to be committed
-  "start_date": 0, <= start date of your commits
-  "end_date": 0, <= end dates of your commits
-  "default_git_name": "", <=your git name (not username)
-  "default_git_email": "", <= your git mail
-  "new_repo_address": “”, <= repo you want to commit to  
-  "even_distribution": false <= even or uneven number of commits by each ‘team’ contributor
-}`
+<code>
+{
+  "project_path": "", <-- here goes path of the project you want to be committed
+  "start_date": 0, <-- start date of your commits
+  "end_date": 0, <-- end dates of your commits
+  "default_git_name": "", <-- your git name (not username)
+  "default_git_email": "", <-- your git mail
+  "new_repo_address": “”, <-- repo you want to commit to  
+  "even_distribution": false <-- even or uneven number of commits by each ‘team’ contributor
+}
+</code>
 
 Then you should edit your ‘team.json’:
-`
+<code>
 [{
 	"email": “blah@baz.com",
 	"name": “John Doe”,
@@ -49,10 +50,10 @@ Then you should edit your ‘team.json’:
 	"name": “Last Teammate”,
 	"files": []
 }]
-`
+</code>
 Just add as much teammates as you need :)
 
-##Run&commiting
+<h3>Run&commiting</h3>
 
 Just run:
 
@@ -60,6 +61,6 @@ Just run:
 
 and relax… this script will do everything for you.
 
-####Don’t forget to change your default date time settings!
+<h5>Don’t forget to change your default date time settings!</h5>
 
-####Runs only with `sudo`
+<h5>Runs only with `sudo`</h5>
