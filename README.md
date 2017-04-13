@@ -12,6 +12,21 @@
 
 `git clone https://github.com/LegacyNaUKMA/autocommit.git`
 
+### Run&commiting:)
+
+Just run:
+
+
+`sudo node autocommit.js`
+
+
+and relax… this script will do everything for you.
+
+#### Don’t forget to change your default date time settings!
+
+#### Runs only with `sudo`
+
+
 ### Project structure
 
 ```
@@ -62,18 +77,3 @@ Then you should edit your `team.json`:
 ```
 
 Just add as much teammates as you need :)
-
-
-### Run&commiting
-
-Just run:
-
-
-`sudo node autocommit.js`
-
-
-and relax… this script will do everything for you.
-
-#### Don’t forget to change your default date time settings!
-
-#### Runs only with `sudo`
