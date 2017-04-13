@@ -8,9 +8,11 @@
 
 ### Getting Started:
 
-`npm install`
-
 `git clone https://github.com/LegacyNaUKMA/autocommit.git`
+
+`cd autocommit`
+
+`npm install`
 
 
 ### Project structure
