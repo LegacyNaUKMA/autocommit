@@ -1,5 +1,11 @@
 # autocommit
 
+### Description
+
+You have a finished project for your university course and you need to have the repo that shows every team member's commits?
+This is the solution!
+The commits wouldn't look very natural, but it should be ok for the university project.
+
 ### Requirements
 
 `bash`
@@ -33,13 +39,13 @@ First you should edit your `config.json`:
 
 ```
 {
-  "project_path": "", <-- here goes path of the project you want to be committed
+  "project_path": "", <-- here goes the absolute path of the project you want to be committed
   "start_date": 0, <-- start date of your commits
-  "end_date": 0, <-- end dates of your commits
+  "end_date": 0, <-- end date of your commits
   "default_git_name": "", <-- your git name (not username)
   "default_git_email": "", <-- your git mail
   "new_repo_address": “”, <-- repo you want to commit to  
-  "even_distribution": false <-- even or uneven number of commits by each ‘team’ contributor
+  "even_distribution": false <-- even or uneven distribution of commits by each ‘team contributor’
 }
 ```
 
