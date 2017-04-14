@@ -32,6 +32,8 @@ recursive_dir(path, function (err, files) {
       team_member = getRandomInt(0, team.length);
     }
 
+    file = file.replace(path + "/", "");
+
     if (team[team_member]["files"] == undefined) {
       team[team_member]["files"] = [file];
     } else {
